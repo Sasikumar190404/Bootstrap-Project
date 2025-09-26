@@ -7,9 +7,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x:hidden;
 }
-
+body{
+    overflow-x:hidden
+}
 #navbar {
     height: 80px;
     position: sticky;
@@ -153,6 +154,7 @@
   font-size: 0.8rem;
   padding: 4px 6px;
 }
+
 
 
 
