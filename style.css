@@ -29,29 +29,7 @@
     color: black;
     text-shadow: 0 0 1px black;
 }
-.nav-slider-wrapper {
-  overflow: hidden;
-  width: 100%;
-}
 
-.nav-slider {
-  display: flex;
-  animation: slide 15s linear infinite;
-}
-
-.nav-slider .nav-item {
-  flex: 0 0 auto; /* Keep items in a row without wrapping */
-  margin: 0 20px;  /* Space between items */
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%); /* Adjust based on number of items */
-  }
-}
 
 .cards {
 
@@ -174,4 +152,5 @@
   font-size: 0.8rem;
   padding: 4px 6px;
 }
+
 
