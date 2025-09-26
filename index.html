@@ -16,46 +16,25 @@
 
 
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" id="navbar">
-    <div class="container-fluid bg-body-tertiary">
-      <a class="navbar-brand" href="#">LOUIS VOITTON</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+ <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" id="navbar">
+  <div class="container-fluid bg-body-tertiary">
+    <a class="navbar-brand" href="#">LOUIS VOITTON</a>
 
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="nav-slider-wrapper">
+        <ul class="navbar-nav nav-slider">
           <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
           <li class="nav-item"><a class="nav-link" href="#aboutus">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <!-- Repeat items if needed for continuous loop -->
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
         </ul>
-
-        <!-- Button that changes dynamically -->
-       <!-- Button that changes dynamically -->
-<button id="authBtn" type="button" class="btn btn-outline-dark">
-  Sign In
-</button>
-
-
-<!-- Right Side Buttons -->
-
-
-  <!-- Cart Icon -->
-  <button class="btn position-relative" onclick="openCart()">
-    <i class="fa-solid fa-cart-shopping fa-lg"></i>
-    <span id="cartCount" 
-          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-      0
-    </span>
-  </button>
-</div>
-
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
 
   <div id="carouselExampleIndicators" class="carousel slide">
@@ -378,3 +357,4 @@
   integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
 </html>
+
